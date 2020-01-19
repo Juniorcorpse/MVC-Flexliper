@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flexh {
+    color: #4b4b4b;
+}
+
+.flex {
+    color: #4b4b4b;
+    padding: 30px;
+    font-size: 18px;
+}
+

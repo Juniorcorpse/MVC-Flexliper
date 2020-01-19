@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+    position: relative;
+    top: 30px;
+}
+
+section.banner {
+    padding: 270px 0;
+    position: relative;
+    min-height: 400px;
+    background-image: url(../images/flex1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section.banner > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+section.depoimento {
+    padding: 40px 0;
+}
+
+section.depoimento h2 {
+    color: #4b4b4b;
+}
+
+section.depoimento p {
+    color: #4b4b4b;
+}
+
+section.depoimento blockquote {
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+section.diferenciais {
+    padding: 20px 0;
+    background: rgb(225,225,225);
+}
+
+section.diferenciais p {
+    font-size: 18px;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+section.final-site {
+    padding: 30px 0;
+}
+
+section.final-site textarea {
+    height: 120px;
+}
+
+section.final-site h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #4b4b4b;
+    font-size: 30px;
+}
+
+
+
+.diferenciais-container {
+    margin-top: 30px;
+}
+
+.diferenciais-container h3{
+    color: #d32f2f;
+}
+
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+
+.social-network a.icoInstagram:hover {
+    background-color: rgb(253, 5, 158);
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoInstagram:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: black;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+a {
+    background-color: #fff;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+footer > p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 670px) {
+    section.banner {
+        padding: 100px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flex1.jpg);
+        width: 100%;
+        background-size: cover;
+      
+    }
+}
+
+@media screen and (max-width: 520px){
+    section.banner {
+        padding: 50px 0;
+        position: relative;
+        min-height: 350px;
+        background-image: url(../images/flex1.jpg);
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section.banner {
+        padding: 20px 0;
+        min-height: 280px;
+        background-image: url(../images/flex1.jpg);
+        width: 100%;
+        background-size: cover;
+      
+    }
+}
+
+@media screen and (max-width: 340px) {
+    section.banner {
+        padding: 0px 0;
+        min-height: 200px;
+        background-image: url(../images/flex1.jpg);
+        width: 100%;
+        background-size: cover;
+    }
+      
+}
+
+@media screen and (max-width: 245px){
+    section.banner {
+        padding: 0px 0;
+        min-height: 190px;
+        background-image: url(../images/flex1.jpg);
+        width: 100%;
+        background-size: cover;
+    }
+}
