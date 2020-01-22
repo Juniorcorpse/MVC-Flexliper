@@ -10,7 +10,7 @@
 
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">  <!--tens que informar o caminho completo dos arquivos -->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
